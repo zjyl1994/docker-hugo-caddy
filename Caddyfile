@@ -1,6 +1,6 @@
-0.0.0.0:2015 {
+http://0.0.0.0:2015 {
     root /www/public
-
+    tls off
     # sync the repo and then gen public site
     git {
         repo {$REPO}
